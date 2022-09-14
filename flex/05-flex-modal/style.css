@@ -23,7 +23,6 @@ body {
   padding: 16px;
   display: flex;
   column-gap: 16px;
-  flex-shrink: 1;
 }
 
 .icon {
@@ -77,5 +76,18 @@ button.cancel {
 }
 
 .text {
-  margin: 12px 0;
+  margin-bottom: 16px;
 }
+
+/* MISSED THESE ITEMS PER SOLUTION */
+
+.header {
+  align-items: center;
+  margin-bottom: 8px;
+  /* didn't use space-between since there's margin-left: auto on the close button */
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
