@@ -38,6 +38,7 @@ input {
   align-items: center;
   justify-content: space-between;
   background: #eee;
+  padding: 10px;
 }
 
 a {
@@ -48,5 +49,9 @@ ul {
   list-style-type: none;
   display: flex;
   padding-left: 0;
+  gap: 10px;
 }
 
+.header {
+  padding: 10px;
+}
