@@ -41,17 +41,22 @@ input {
   padding: 10px;
 }
 
+.header {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 a {
   text-decoration: none;
+  color: dimgrey;
 }
 
 ul {
   list-style-type: none;
   display: flex;
   padding-left: 0;
-  gap: 10px;
+  gap: 15px;
 }
 
-.header {
-  padding: 10px;
-}
